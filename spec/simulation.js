@@ -13,9 +13,9 @@ Consumer
         });
 
       let port      = server.address().port
-        , url       = `http://localhost:${port}`
-        , stream_a  = (new Producer(url)).stream({ type : 'a' })
-        , stream_b  = (new Producer(url)).stream({ type : 'b' })
+        , url       = `http://localhost:${port}/#12345`
+        , stream_a  = (new Producer(url)).stream({ type : 'a', id : 123 })
+        , stream_b  = (new Producer(url)).stream({ type : 'b', id : 123 })
         ;
 
       let i = 10;
