@@ -20,10 +20,13 @@
     "bluebird": "^3.5.0",
     "lodash": "^4.17.4",
     "rand-token": "^0.3.0",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2",
     "socket.io": "^2.0.3",
     "socket.io-client": "^2.0.3",
     "through2": "^2.0.3",
     "universal-url": "^1.0.0",
+    "url-join": "^2.0.2",
     "winston": "^2.3.1"
   }
 }
